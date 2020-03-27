@@ -1,14 +1,16 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './Main.css'
-import Logo from './Logo.js'
-
+import Logo from '../Logo.js'
+import SearchBar from '../SearchField.js'
+import NavButton from '../NavigationButton.js'
 class Main extends Component{
     render(){
         return(
             <div>
-                <h1>works</h1>
-                <Logo/>
+                <SearchBar />
+                <Logo />
+                <NavButton/>
             </div>
 
         )
